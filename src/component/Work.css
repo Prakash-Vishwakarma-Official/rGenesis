@@ -1,0 +1,26 @@
+.work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+}
+.work_title {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin-top: 9vmax;
+}
+.work_title > h3{
+    font-size: 4vmax;
+}
+.work_title > p{
+    font-size: 2vmax;
+}
+.Work_card_flex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}

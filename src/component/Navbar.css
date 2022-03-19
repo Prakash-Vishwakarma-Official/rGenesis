@@ -1,0 +1,65 @@
+nav {
+  height: 6vmax;
+  background-color: rgba(88, 88, 88, 0.5)!important;
+  font-size: 1.4vmax;
+}
+nav > div > .navbar-brand{
+  font-size: 1.4vmax;
+
+}
+.CMA{
+  margin: auto;
+}
+.banner-image {
+  background-image: url('./assets/face.jpg');
+  background-size: cover;
+  
+}
+.mainDiv {
+  border: 2px solid rgb(97, 218, 255);
+}
+.mainDivLeft {
+  border: 2px solid rgb(0, 255, 0);
+  width: 50%;
+  height: 100%;
+  color: white;
+}
+h1{
+  font-size: 3vmax;
+}
+p{
+  font-size: 2vmax;
+}
+.mainDivRight{
+  border: 2px solid rgb(89, 0, 255);
+  width: 50%;
+}
+nav > form > button{
+  font-size: 1.5vmax !important;
+  background-color: rgba(88, 88, 88, 0.5)!important;
+
+}
+.mainDivLeft button{
+  font-size: 1.5vmax !important;
+}
+
+
+
+
+
+@media only screen and (max-width: 990px){
+	/*Small smartphones [325px -> 425px]*/
+  .respoColor{
+  background-color: black;
+  }
+  nav{
+    background-color: black;
+  }
+  .mainDivRight{
+    display: none !important;
+  }
+  .mainDivLeft {
+    width: 90%;
+    font-size: 3vmax;
+  }
+}

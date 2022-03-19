@@ -1,0 +1,74 @@
+.Casestudy{
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+}
+.CasestudyLeft{
+    border: 2px solid rgb(255, 0, 0);
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.CasestudyLeftImg{
+    border: 2px solid rgb(0, 0, 0);
+    width: 90%;
+    height: auto;
+}
+.CasestudyLeftImg > img{
+    border: 2px solid rgb(255, 0, 221);
+    width: 100%;
+    height: 100%;
+}
+.CasestudyRight{
+    border: 2px solid rgb(56, 255, 7);
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CasestudyRightCuntents{
+    border: 2px solid rgb(0, 113, 128);
+    width: 80%;
+    height: auto;
+}
+.CasestudyRightCuntents > p{
+    font-size: 1.4vmax;
+    color: rgb(158, 158, 158);
+}
+.CasestudyRightCuntents > h6{
+    color: rgb(158, 158, 158);
+    font-size: 2vmax;
+
+}
+.CasestudyRightCuntents > h4{
+    font-size: 2vmax;
+
+}
+
+@media only screen and (max-width: 990px) {
+    .Casestudy{
+        flex-direction: column;
+    }
+    .CasestudyLeft{
+        border: 2px solid rgb(255, 0, 0);
+        width: 100%;
+        height: auto;
+    
+    }
+    .CasestudyRight{
+        border: 2px solid rgb(56, 255, 7);
+        width: 100%;
+        height: auto;
+    }
+    .Casestudy{
+        display: flex;
+        border: 2px solid black;
+        width: 100%;
+        height: auto;
+    }
+  }

@@ -1,0 +1,55 @@
+.Our_team_says{
+    display: flex;
+    border: 2px solid rgb(0, 238, 255);
+    height: auto;
+    background-color: rgb(235, 235, 235);
+}
+.bg_color{
+    background-color: rgb(235, 235, 235);
+}
+.Our_team_says_Left img{
+    border-radius: 50% !important;
+    width: 6vmax;
+    border: 3px solid rgb(0, 247, 255);
+    margin-top: 6vmax;
+    margin-left: 6vmax;
+}
+.Cus_card_body h5{
+    font-size: 2vmax !important;
+}
+.Our_team_says_Left{
+    border: 3px solid rgb(0, 247, 255);
+}
+.Our_team_says_Right img{
+    border-radius: 50% !important;
+    border: 3px solid black;
+    border: 2px solid rgb(7, 255, 255);
+    width: 6vmax;
+    margin-top: 6vmax;
+}
+.Cus_card_body_1{
+    margin-left: -6vmax;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 990px){
+    /*Tablets [601px -> 1200px]*/
+    .Our_team_says{
+        flex-direction: column;
+    }
+    .Our_team_says_Right img{
+        margin-top: 6vmax;
+        margin-left: 6vmax;
+    }
+    .Cus_card_body_1{
+        margin-left: 0vmax;
+    }
+
+}

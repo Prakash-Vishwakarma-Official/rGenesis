@@ -1,0 +1,13 @@
+.require{
+    width: 100%;
+    height: 30vmax;
+    background-color: #1f2229;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.require_button{
+    font-size: 1.5vmax;
+}

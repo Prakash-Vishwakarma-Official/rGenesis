@@ -1,0 +1,9 @@
+.Custom_card{
+    width: 30vmax;
+}
+.Custom_card_title ,  .Custom_card_text{
+    font-size: 2vmax;
+}
+.Custom_card-body{
+    background-color: rgba(238, 238, 238, 0.685);
+}
